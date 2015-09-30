@@ -40,12 +40,6 @@ function testReturn(action, data) {
 // Roda o teste primitivo para Array
 // Verifica a quantidade de registros retornados
 
-// Update: update
-// retorna um INTEIRO de quantos objetos foram atualizados
-// se retorno === 0 então não atualizou nada
 
 
-// Delete: remove
-// retorna um INTEIRO de quantos objetos foram removidos
-// se retorno === 0 então não removeu nada
 
