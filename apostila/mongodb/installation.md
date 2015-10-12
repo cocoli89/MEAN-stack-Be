@@ -23,16 +23,10 @@ Depois precisa criar uma lista de arquivos para o MongoDB, no Ubuntu 12:
 echo "deb http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
 ```
 
-Ubuntu 14:
+Ou no Ubuntu 14:
 
 ```
 echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
-```
-
-Ubuntu 15:
-
-```
-echo "deb http://repo.mongodb.org/apt/debian wheezy/mongodb-org/3.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list"
 ```
 
 Caso você use RedHat ou CentOS siga esses passos: [http://docs.mongodb.org/manual/tutorial/install-mongodb-on-red-hat/](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-red-hat/)
