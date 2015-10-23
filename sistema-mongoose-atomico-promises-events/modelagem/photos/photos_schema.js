@@ -1,10 +1,11 @@
-'use strict';
+const ValidateEmail = require('./email_validate');
+const ValidatePassword = require('./password_validate');
 
 const Schema = {
   user_id: {
     type: Schema.ObjectId
-  , ref: 'User'
-	}
+  , ref: 'User' }
+  }
 , legend: {
     type: String
   , default: ''
@@ -17,9 +18,9 @@ const Schema = {
     {
       user_id: {
         type: Schema.ObjectId
-      , ref: 'User'
-			}
-     }
+      , ref: 'User' }
+      }
+    }
   ]
 , comments: [
     {
@@ -31,11 +32,13 @@ const Schema = {
         type: String
       , default: ''
       }
+    }
   ]
 , created_at: {
     type: Date
   , default: Date.now
   }
 }
+
 
 module.exports = Schema;
