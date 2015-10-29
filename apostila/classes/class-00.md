@@ -30,7 +30,7 @@ Como alguns tem a meta de **ganhar 1 milhão** eu tenho a meta de **ensinar 1 mi
 
 Você pode ler mais sobre a Webschool [aqui](http://nomadev.com.br/webschool-io-uma-escola-online-para-deixar-qualquer-conte%C3%BAdo-aberto-e-gratuito-para-sempre/).
 
-Basicamente é uma escola que criará o máximo de conteúdo, de qualidade, possível deinxando-o aberto e gratuito a todos. Onde o conteúdo possa ser criado colaborativamente pela comunidade, e as aulas possam ser dadas por qualquer professor.
+Basicamente é uma escola que criará o máximo de conteúdo, de qualidade, possível deixando-o aberto e gratuito a todos. Onde o conteúdo possa ser criado colaborativamente pela comunidade, e as aulas possam ser dadas por qualquer professor.
 
 ## O que é o Be MEAN?
 
@@ -80,8 +80,8 @@ Essa é uma ótima pergunta pois **eu adicionei** vários outros módulos e com 
 
 Vamos a eles:
 
-- Be MEAN (100 horas)
-    + MEAN (50 hioras)
+- Be MEAN (105 horas)
+    + MEAN (50 horas)
         * MongoDB (5 horas)
         * Node.js (15 horas)
         * AngularJs (15 horas)
@@ -101,7 +101,7 @@ Vamos a eles:
         * Electron (8 horas)
     + UX & Animations (7 horas)
     + ES6 (5 horas)
-    + Deploy e Servidores (x horas) 
+    + Deploy e Servidores (5 horas) 
 - Geolocation (8 horas)
 - Docker (4 horas)
 - Ionic (10 horas)
@@ -144,7 +144,7 @@ Por isso tentem chamar seus amigos para que possamos deixar **TODO O CONTEÚDO F
 
 ## Pré-requisitos
 
-1 - Ter o GIT na sua máquina, se for Windows pode ser o GIT BASH, e ver [esse vídeo](https://www.youtube.com/watch?v=TReVFOxhh7E)
-2 - Saber o básico de JavaScript vendo [esses vídeos do Rodrigo Branas](https://www.youtube.com/playlist?list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc)
-3 - Instalar o MongoDb e o Node.js 
-4 - Saber pesquisar na internet.
+- 1 - Ter o GIT na sua máquina, se for Windows pode ser o GIT BASH, e ver [esse vídeo](https://www.youtube.com/watch?v=TReVFOxhh7E)
+- 2 - Saber o básico de JavaScript vendo [esses vídeos do Rodrigo Branas](https://www.youtube.com/playlist?list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc)
+- 3 - Instalar o MongoDb e o Node.js 
+- 4 - Saber pesquisar na internet.
