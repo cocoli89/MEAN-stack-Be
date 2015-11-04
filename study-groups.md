@@ -32,11 +32,7 @@ Caso tenha muitos interessados o professor responsável que irá escolher os alu
 
 ## MongoDb
 
-- [gabrielcmendes](https://github.com/gabrielcmendes)
-
 ## Node.js
-
-- [gabrielcmendes](https://github.com/gabrielcmendes)
 
 ### Autenticação
 Professor: [Caio Cutrim]()
@@ -57,6 +53,8 @@ Professor: [Suissa](https://github.com/suissa)
 Professor: [Itacir Pompeu]()
 
 ### Electron
+
+- [Vinicius Reis](https://github.com/vinicius73)
 
 ## Angular
 
