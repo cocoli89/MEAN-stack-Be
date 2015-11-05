@@ -53,8 +53,7 @@ Professor: [Suissa](https://github.com/suissa)
 Professor: [Itacir Pompeu]()
 
 ### Electron
-
-- [Vinicius Reis](https://github.com/vinicius73)
+Professor: [Jonatas Freitas](https://github.com/jonatasfreitasv)
 
 ## Angular
 
