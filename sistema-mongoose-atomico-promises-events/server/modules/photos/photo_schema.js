@@ -6,8 +6,7 @@ const _schema = {
 		user_id: {
 			type: Schema.ObjectId
 		, ref: 'User'
-    , required : true
-	  }
+	}
 	,	legend: {
 			type: String
 		, default: ''
