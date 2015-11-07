@@ -35,14 +35,20 @@ Caso tenha muitos interessados o professor responsável que irá escolher os alu
 
 - [gabrielcmendes](https://github.com/gabrielcmendes)
 
+- [Baltazar Parra](https://github.com/ravenNNN)
+
 ## Node.js
 - [Lucas Moreira](https://github.com/fauker)
 
 - [gabrielcmendes](https://github.com/gabrielcmendes)
 
+- [Baltazar Parra](https://github.com/ravenNNN)
+
 ### Autenticação
 Professor: [Caio Cutrim]()
 Projeto final: Um serviço de autenticação igual ao do Facebook
+
+- [Alison Monteiro](https://github.com/alisonmonteiro)
 
 #### Identificação
 #### Autenticação
@@ -57,6 +63,8 @@ Professor: [Suissa](https://github.com/suissa)
 
 ### Testes
 Professor: [Itacir Pompeu]()
+
+- [Alison Monteiro](https://github.com/alisonmonteiro)
 
 ### Electron
 Professor: [Jonatas Freitas](https://github.com/jonatasfreitasv)
