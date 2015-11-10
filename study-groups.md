@@ -39,8 +39,6 @@ Caso tenha muitos interessados o professor responsável que irá escolher os alu
  
 - [Thiago Magalhães](https://github.com/Thiago-Magalhaes)
 
-- [André Machado](https://github.com/andresmachado)
-
 ## Node.js
 - [Lucas Moreira](https://github.com/fauker)
 
@@ -51,8 +49,6 @@ Caso tenha muitos interessados o professor responsável que irá escolher os alu
 - [Thiago Magalhães](https://github.com/Thiago-Magalhaes)
 
 - [Marcelo Santos](https://github.com/MarceSanto)
-
-- [André Machado](https://github.com/andresmachado)
 
 ### Autenticação
 Professor: [Caio Cutrim]()
