@@ -48,8 +48,6 @@ Caso tenha muitos interessados o professor responsável que irá escolher os alu
 
 - [Thiago Magalhães](https://github.com/Thiago-Magalhaes)
 
-- [Marcelo Santos](https://github.com/MarceSanto)
-
 ### Autenticação
 Professor: [Caio Cutrim]()
 Projeto final: Um serviço de autenticação igual ao do Facebook
@@ -79,7 +77,6 @@ Professor: [Itacir Pompeu]()
 Professor: [Jonatas Freitas](https://github.com/jonatasfreitasv)
 
 - [Vinicius Reis](https://github.com/vinicius73)
-- [Marcelo Santos](https://github.com/MarceSanto)
 
 ## Angular
 
