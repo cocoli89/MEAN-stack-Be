@@ -36,6 +36,8 @@ Caso tenha muitos interessados o professor responsável que irá escolher os alu
 - [gabrielcmendes](https://github.com/gabrielcmendes)
 
 - [Baltazar Parra](https://github.com/ravenNNN)
+ 
+- [Thiago Magalhães](https://github.com/Thiago-Magalhaes)
 
 ## Node.js
 - [Lucas Moreira](https://github.com/fauker)
@@ -43,6 +45,8 @@ Caso tenha muitos interessados o professor responsável que irá escolher os alu
 - [gabrielcmendes](https://github.com/gabrielcmendes)
 
 - [Baltazar Parra](https://github.com/ravenNNN)
+
+- [Thiago Magalhães](https://github.com/Thiago-Magalhaes)
 
 ### Autenticação
 Professor: [Caio Cutrim]()
@@ -61,10 +65,13 @@ Professor: [Suissa](https://github.com/suissa)
 ### SOA / Microservices
 Professor: [Suissa](https://github.com/suissa)
 
+- [Vinicius Borges](https://github.com/BX-L)
+
 ### Testes
 Professor: [Itacir Pompeu]()
 
 - [Alison Monteiro](https://github.com/alisonmonteiro)
+- [Vinicius Borges](https://github.com/BX-L)
 
 ### Electron
 Professor: [Jonatas Freitas](https://github.com/jonatasfreitasv)
