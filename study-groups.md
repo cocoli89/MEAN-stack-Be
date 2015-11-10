@@ -36,8 +36,6 @@ Caso tenha muitos interessados o professor responsável que irá escolher os alu
 - [gabrielcmendes](https://github.com/gabrielcmendes)
 
 - [Baltazar Parra](https://github.com/ravenNNN)
- 
-- [Thiago Magalhães](https://github.com/Thiago-Magalhaes)
 
 ## Node.js
 - [Lucas Moreira](https://github.com/fauker)
@@ -45,8 +43,6 @@ Caso tenha muitos interessados o professor responsável que irá escolher os alu
 - [gabrielcmendes](https://github.com/gabrielcmendes)
 
 - [Baltazar Parra](https://github.com/ravenNNN)
-
-- [Thiago Magalhães](https://github.com/Thiago-Magalhaes)
 
 ### Autenticação
 Professor: [Caio Cutrim]()
