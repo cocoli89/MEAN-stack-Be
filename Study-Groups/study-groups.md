@@ -14,7 +14,6 @@
 - [Thiago Magalhães](https://github.com/Thiago-Magalhaes)
 - [Marcelo Santos](https://github.com/MarceSanto)
 - [André Machado](https://github.com/andresmachado)
-- [Diego Araújo](https://github.com/diihfilipe)
 
 ### Autenticação
 Professor: [Caio Cutrim]()
@@ -59,7 +58,6 @@ Professor: [Jonatas Freitas](https://github.com/jonatasfreitasv)
 
 ### Atomic Design
 Professor: [Suissa](https://github.com/suissa)
-- [Diego Araújo](https://github.com/diihfilipe)
 
 ### Mobile-first
 Professor: [Suissa](https://github.com/suissa)
