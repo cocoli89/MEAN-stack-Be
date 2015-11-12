@@ -60,14 +60,13 @@
         * CRUD
             - find
             - findOne
-        * Paginação
-        * Índices
 - **Aula 04 | 11.11**
     + Módulo MongoDB
         * CRUD
             - update
             - remove
             - drop
+        * Paginação
 - **Aula 05 | 12.11**
     + Módulo MongoDB
         * Aggregation
