@@ -6,7 +6,6 @@
 - [Baltazar Parra](https://github.com/ravenNNN)
 - [Thiago Magalhães](https://github.com/Thiago-Magalhaes)
 - [André Machado](https://github.com/andresmachado)
-- [Jean Silva](https://github.com/fjeansilva)
 
 ## Node.js
 - [Lucas Moreira](https://github.com/fauker)
@@ -15,8 +14,6 @@
 - [Thiago Magalhães](https://github.com/Thiago-Magalhaes)
 - [Marcelo Santos](https://github.com/MarceSanto)
 - [André Machado](https://github.com/andresmachado)
-- [Diego Araújo](https://github.com/diihfilipe)
-- [Jean Silva](https://github.com/fjeansilva)
 
 ### Autenticação
 Professor: [Caio Cutrim]()
@@ -41,7 +38,6 @@ Professor: [Itacir Pompeu]()
 
 - [Alison Monteiro](https://github.com/alisonmonteiro)
 - [Vinicius Borges](https://github.com/BX-L)
-- [Salvador Torres](https://github.com/ssatorres)
 
 ### Electron
 Professor: [Jonatas Freitas](https://github.com/jonatasfreitasv)
@@ -61,15 +57,12 @@ Professor: [Jonatas Freitas](https://github.com/jonatasfreitasv)
 
 ### Atomic Design
 Professor: [Suissa](https://github.com/suissa)
-- [Diego Araújo](https://github.com/diihfilipe)
 
 ### Mobile-first
 Professor: [Suissa](https://github.com/suissa)
 
 ### Offline-first
 Professor: [Suissa](https://github.com/suissa)
-
-- [Salvador Torres](https://github.com/ssatorres)
 
 ### Stylus
 
