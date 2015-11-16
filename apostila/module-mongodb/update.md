@@ -152,20 +152,15 @@ Caso o campo não exista, ele irá criar o campo e setar o valor. Para decrement
 
 ```
 { $inc : { campo : valor } }
+db.pokemons.update( { name: 'Pikachu'}, { $inc: { attack: 1 } } );
 ```
 
 Então vamos utilizar o nosso pokemon de teste modificado anteriormente para incrementar seu *attack*.
 
 ```
 var mod = {$inc: { attack: 1 }}
-db.pokemons.update(query, mod)
 
-Updated 1 existing record(s) in 2ms
-WriteResult({
-  "nMatched": 1,
-  "nUpserted": 0,
-  "nModified": 1
-})
+db.pokemons.update(query, mod)
 ```
 
 Bem simples né? E podemos passar o valor que quisermos, não apenas incrementar de 1 em 1.
@@ -263,21 +258,6 @@ db.pokemons.find(query)
 Fetched 1 record(s) in 0ms
 ```
 
-#### Erro
-
-```
-The field 'type' must be an array but is of type String in document {_id: ObjectId('564220f0613f89ac53a7b5d0')}
-WriteResult({
-  "nMatched": 0,
-  "nUpserted": 0,
-  "nModified": 0,
-  "writeError": {
-    "code": 16837,
-    "errmsg": "The field 'type' must be an array but is of type String in document {_id: ObjectId('564220f0613f89ac53a7b5d0')}"
-  }
-})
-```
-
 ### $pushAll
 
 O operador `$pushAll` adiciona cada valor do `[Array_de_valores]`, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pushAll`.
@@ -329,7 +309,7 @@ db.pokemons.find(query)
 
 ### $pull
 
-O operador `$pull` retira um valor do campo, caso o **campo seja um *Array* existente**. Caso **não exista** ele não fará nada.
+O operador `$pull` retira um valor do campo, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pull`.
 Caso o **campo exista e não for um *Array*, irá retornar um erro**.
 
 #### Sintaxe
@@ -377,7 +357,7 @@ db.pokemons.find(query)
 
 ### $pullAll
 
-O operador `$pullAll` retira cada valor do `[Array_de_valores]`, caso o **campo seja um *Array* existente**. Caso **não exista** ele não fará nada.
+O operador `$pullAll` retira cada valor do `[Array_de_valores]`, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pullAll`.
 Caso o **campo exista e não for um *Array*, irá retornar um erro**.
 
 #### Sintaxe
