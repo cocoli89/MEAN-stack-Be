@@ -1,16 +1,6 @@
 
 # Execícios mandem aqui [https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises](https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises)
 
-# [ ANÚNCIO ]
-
-**Estou combinando c/ professor [William Bruno](https://github.com/wbruno) para criarmos a última aula juntos, porém como mudei o projeto final, teremos que fazer essa aula na SEXTA e SÁBADO!**
-
-Pois é nela que explicaremos todo o projeto final, aí darei mais 1 semana de prazo para fazerem o projeto final.
-
-Dando tempo de gravarmos antecipadamente as aulas de Node.js
-
-**O artigo foi extendido o prazo para 23 de Novembro e será passado outro na última aula para o dia 30!**
-
 ## O Professor
 
 Olá meu nome é Jean Carlo Nascimento, mais conhecido como **Suissa**, por favor me chame assim, já trabalho com Web uns 10 anos profissionalmente e há mais de 3 apenas com JavaScript.
@@ -45,6 +35,7 @@ A aula segue um grande *workflow* até ser divulgada:
 **Sempre as 22 horas com pelo menos 1 hora de chat ao vivo com o professor.**
 
 # Roteiro
+
 
 ## Duração
 - Be MEAN (101 horas)
@@ -124,20 +115,18 @@ A aula segue um grande *workflow* até ser divulgada:
     	* distinct
         * group
         * Aggregation Framework
-- **Aula 06 | 20.11**
+- **Aula 06 | 19.11**
     + Módulo MongoDB
-        * Explain
-        * Índices
+        * Modelagem
         * Users and Passwords
         * Replica
         * Sharding
         * GridFs
         * Robomongo
-        * Modelagem
 - **PROJETO**
 	+ **de 20.11 a 30.11**
 
-##  Módulo Node.js | 30.11 a 27.12
+##  Módulo Node.js | 23.11 a 20.12
 
 - **Aula 01 | 23.11**
     + Módulo Node.js

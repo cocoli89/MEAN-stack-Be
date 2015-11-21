@@ -7,7 +7,6 @@
 - [Thiago Magalhães](https://github.com/Thiago-Magalhaes)
 - [André Machado](https://github.com/andresmachado)
 - [Jean Silva](https://github.com/fjeansilva)
-- [Itacir Pompeu](https://github.com/Pompeu )
 
 ## Node.js
 - [Lucas Moreira](https://github.com/fauker)
@@ -20,7 +19,6 @@
 - [Jean Silva](https://github.com/fjeansilva)
 - [Geriel Castro](https://github.com/geriel)
 - [Paolo Almeida](https://github.com/paoloalmeida)
-- [Itacir Pompeu](https://github.com/Pompeu )
 
 ### Autenticação
 Professor: [Caio Cutrim]()
@@ -34,16 +32,14 @@ Projeto final: Um serviço de autenticação igual ao do Facebook
 
 ### Módulos Reativos / Eventos
 Professor: [Suissa](https://github.com/suissa)
-- [Itacir Pompeu](https://github.com/Pompeu )
 
 ### SOA / Microservices
 Professor: [Suissa](https://github.com/suissa)
 
 - [Vinicius Borges](https://github.com/BX-L)
-- [Itacir Pompeu](https://github.com/Pompeu )
 
 ### Testes
-Professor: [Itacir Pompeu](https://github.com/Pompeu)
+Professor: [Itacir Pompeu]()
 
 - [Alison Monteiro](https://github.com/alisonmonteiro)
 - [Vinicius Borges](https://github.com/BX-L)
@@ -54,18 +50,14 @@ Professor: [Jonatas Freitas](https://github.com/jonatasfreitasv)
 
 - [Vinicius Reis](https://github.com/vinicius73)
 - [Marcelo Santos](https://github.com/MarceSanto)
-- [Itacir Pompeu](https://github.com/Pompeu )
 
 ## Angular
-
-- [Itacir Pompeu](https://github.com/Pompeu )
 
 ### Autenticação
 
 ### Módulos Reativos / Eventos
 
 ### Testes
-Professor: [Itacir Pompeu](https://github.com/Pompeu)
 
 ## Frontend
 
@@ -96,7 +88,7 @@ Professor: [Suissa](https://github.com/suissa)
 
 ### ElasticSearch
 ### Neo4J
-Professor:  [Itacir Pompeu](https://github.com/Pompeu )
+Professor: [Itacir Pompeu]()
 
 ### OrientDB
 Professor: [Gustavo Salome]()
@@ -111,8 +103,6 @@ Professor: [William Bruno](https://github.com/wbruno)
 ## Deploy
 
 ## Vanilla
-
-- [Itacir Pompeu](https://github.com/Pompeu )
 
 ### Microserviços reativos e isomórficos
 Professor: [Suissa](https://github.com/suissa)
