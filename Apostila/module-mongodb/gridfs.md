@@ -4,25 +4,27 @@ GridFS é o sistema de arquivos do MongoDb, ele irá armazenar os binários dire
 
 ## Por que usar?
 
-Você pode querer guardar algum binário no banco porém o limite de cada documento [BSON](https://docs.mongodb.org/manual/reference/glossary/#term-bson) é de 16 MB, logo se você quiser armazenar algo maior o GridFS é a ferramenta correta pro serviço.
+Você pode querer guardar algum binário no banco porém o limite de cada documento [BSON](https://docs.mongodb.org/manual/reference/glossary/#term-bson) é de 16 Mb, logo se você quiser armazenar algo maior o GridFS é a ferramenta correta pro serviço.
 
-E também **se você não quiser que todo o arquivo vá para a memória RAM**, isso é algo muito importante quando você está trabalhando com uma coleção grande de arquivos.
+E também **se você não quiser que todo o arquivo vá para a memória RAM** como as coleções normais do MongoDb vão para serem lidas, isso é algo muito importante quando você está trabalhando com uma coleção grande de arquivos.
 
 ## Quando usar?
 
-**Tudo bem entendi que é para usar para armazenar arquivos maiores que 16 MB e que não vão para a memória, mas quando vou usar?**
+**Tudo bem entendi que é para usar para armazenar arquivos maiores que 16 Mb e que não vão para a memória, mas quando vou usar?**
 
 ![](./images/meme-greate-question.jpg)
 
 Em algumas situações, o armazenamento de arquivos grandes podem ser mais eficiente no MongoDB do que em um sistema de arquivos.
 
-- Se seu sistema de arquivos limita o número de arquivos em um diretório, você pode usar GridFS para armazenar quantos arquivos quiser.
+- Se seu sistema de arquivos limita o número de arquivos em um diretório, você pode usar GridFS para armazenar tquantos arquivos quiser.
 - Quando você quiser manter seus arquivos e metadados automaticamente sincronizados. Ao usar réplicas distribuídas geograficamente o MongoDB pode distribuir arquivos e seus metadados automaticamente.
 - Quando você quiser acessar informações de partes de arquivos grandes sem ter que carregar todos os arquivos em memória, você pode usar GridFS buscar seções dos arquivos sem ler o arquivo inteiro na memória.
 
-Não use GridFS se você precisar atualizar o conteúdo de todo o arquivo atomicamente. Como alternativa, você pode armazenar várias versões de cada arquivo e especificar a versão atual do arquivo nos metadados. Você pode atualizar o campo de metadados que indica o status de "último" em uma atualização atômica após o upload de uma nova versão do arquivo, e depois remover versões anteriores, se necessário.
+Não use GridFS se você precisa atualizar o conteúdo de todo o arquivo atomicamente. Como alternativa, você pode armazenar várias versões de cada arquivo e especificar a versão atual do arquivo nos metadados. Você pode atualizar o campo de metadados que indica o status de "último" em uma atualização atômica após o upload de uma nova versão do arquivo, e depois remover versões anteriores, se necessário.
 
 Além disso, se seus arquivos são todos menores de 16MB, considere armazenar o arquivo manualmente dentro de um único documento. Você pode usar o tipo de dados `BinData` para armazenar os dados binários. Consulte a documentação de drivers para detalhes sobre como usar [BinData](https://docs.mongodb.org/manual/reference/mongodb-extended-json/#binary). Pois se vc armazenar um arquivo pequeno, só para ele retornar esses 16MB o MongoDb irá retornar 65 documentos pelo menos de 255Kb, logo nada aconselhável né?
+
+
 
 ## Como usar?
 
@@ -41,7 +43,7 @@ O GridFS irá automaticamente irá gerar 2 coleções dentro do database informa
 - fs.chunks
 - fs.files
 
-Na coleção `fs.chunks` fica nosso arquivo binário divido em pequenas partes, chamadas de `chunks`, cada *chunk* é um documento contendo 255KB de dados seguindo essa estrutura:
+Na coleção `fs.chunks` fica nosso arquivo binário divido em pequenas partes, chamadas de `chunks`, cada *chunk* é um documento contendo 255Kb de dados seguindo essa estrutura:
 
 ```js
 {

@@ -8,7 +8,6 @@
 - [André Machado](https://github.com/andresmachado)
 - [Jean Silva](https://github.com/fjeansilva)
 - [Itacir Pompeu](https://github.com/Pompeu )
-- [Mauricio Gravena](https://github.com/maugravena)
 
 ## Node.js
 - [Lucas Moreira](https://github.com/fauker)
@@ -22,7 +21,6 @@
 - [Geriel Castro](https://github.com/geriel)
 - [Paolo Almeida](https://github.com/paoloalmeida)
 - [Itacir Pompeu](https://github.com/Pompeu )
-- [Mauricio Gravena](https://github.com/maugravena)
 
 ### Autenticação
 Professor: [Caio Cutrim]()
