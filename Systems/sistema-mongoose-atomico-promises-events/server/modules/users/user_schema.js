@@ -1,5 +1,3 @@
-'use strict';
-
 const VALIDATORS_PATH = './../../validators/';
 const ValidateEmail = require(VALIDATORS_PATH + 'email_validate');
 const ValidatePassword = require(VALIDATORS_PATH + 'password_validate');
@@ -33,5 +31,7 @@ const _schema = {
     type: Date
   , default: Date.now
   }
-};
+}
 
+
+module.exports = _schema;

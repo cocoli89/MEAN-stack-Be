@@ -1,5 +1,3 @@
-'use strict';
-
 const ACTIONS_FOLDER = './actions/';
 const ROUTES_FOLDER = './routes/';
 const ACTIONS = ['create', 'retrieve', 'update', 'delete'];
@@ -11,3 +9,5 @@ ACTIONS.forEach(function(action) {
   const Route = require(ROUTES_FOLDER + 'route.default.js')(Action, Config);
   Routes.push(Route);
 });
+
+module.exports = Routes;

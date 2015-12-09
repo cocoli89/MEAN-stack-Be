@@ -62,7 +62,7 @@ HEAD: Retorna os cabeçalhos de uma resposta (sem o corpo contendo o recurso)
 - **PUT**: Requisita que um entidade seja armazenada embaixo da URI fornecida. Se a URI se refere a um recurso que já existe, ele é modificado; se a URI não aponta para um recurso existente, então o servidor pode criar o recurso com essa URI.
 - **DELETE**: Apaga o recurso especificado.
 - **TRACE**: Ecoa de volta a requisição recebida para que o cliente veja se houveram mudanças e adições feitas por servidores intermediários.
-OPTIONS: Retorna os métodos HTTP que o servidor suporta para a URL especificada.
+- **OPTIONS**: Retorna os métodos HTTP que o servidor suporta para a URL especificada.
 - **CONNECT**: Converte a requisição de conexão para um túnel TCP/IP transparente, usualmente para facilitar comunicação criptografada com SSL (HTTPS) através de um proxy HTTP não criptografado.
 - **PATCH**: Usado para aplicar modificações parciais a um recurso.
 
@@ -178,18 +178,6 @@ function(request, response){
 
 Isso se chama **função anônima** e é uma característica **muito importante** do JavaScript, nessa função respondemos para o cliente que fez a requisição.
 
-Exemplo de um cabeçalho:
-
-```js
-{ 'content-length': '123',
-  'content-type': 'text/plain',
-  'connection': 'keep-alive',
-  'host': 'mysite.com',
-  'accept': '*/*' }
-```
-
-Voltando ao nosso código.
-
 ```js
 response.writeHead(200, {"Content-Type": "text/plain"});
 ```
@@ -301,143 +289,9 @@ http.createServer(function(request, response){
 
 ```
 
-Com isso aprendemos como a criar um simples servidor HTTP para nossas futuras aplicações.
 
 ## get
 
-Para dar continuidade no HTTP vamos ver um dos verbos mais usados, o `GET`. 
-
-Com ele iremos requisitar informações na nossa ou em outras APIs e é isso que faremos agora, consultaremos a [API dos Pokemons](http://pokeapi.co/).
-
-Usaremos a função `http.get` seguindo o seguinte modelo:
-
-```js
-http.get({
-  hostname: 'localhost',
-  port: 80,
-  path: '/',
-  agent: false  // criar um novo agente apenas para este pedido
-}, function (res) {
-  // Faça algo co res
-})
-```
-
-Agora criando a requisição para o nosso servidor que está rodando o `hello-querystring.js`:
-
-```js
-'use strict';
-
-const http = require('http');
-
-http.get({
-  hostname: 'localhost',
-  path: '/teste?irru=true&xulepa=1',
-  port: 3000,
-  agent: false
-}, function (response) {
-   let body = '';
-
-    console.log('STATUS: ' + response.statusCode);
-    console.log('HEADERS: ' + response.headers);
-
-    response.on('data', function(data) {
-      body += data;
-    });
-
-    response.on('end', function() {
-      console.log("Resposta: ", body);
-    });
-});
-```
-
-Mas vamos fazer uma pequena modificação para vocês já se acostumarem com [Arrow Functions] do [ES6]:
-
-```js
-'use strict';
-
-const http = require('http');
-
-http.get({
-  hostname: 'localhost',
-  path: '/teste?irru=true&xulepa=1',
-  port: 3000,
-  agent: false
-}, (response) => {
-   let body = '';
-
-    console.log('STATUS: ' + response.statusCode);
-    console.log('HEADERS: ' + response.headers);
-
-    response.on('data', function(data) {
-      body += data;
-    });
-
-    response.on('end', function() {
-      console.log("Resposta: ", body);
-    });
-});
-```
-
-Eu poderia ter omitido os `()` de `(response) => `, porém deixei para ficar mais fácil a sua migração.
-
-Salve esse código como `http-get-localhost-querystring.js` e execute como visto abaixo:
-
-```js
-node http-get-localhost-querystring.js
-STATUS: 200
-HEADERS: {"content-type":"text/html","date":"Sun, 06 Dec 2015 14:13:27 GMT","connection":"close","transfer-encoding":"chunked"}
-Resposta:  <html><body><h1>Query string</h1><ul><li>irru : true</li><li>xulepa : 1</li></ul></body></html>
-```
-
-Agora vou explicar o que aconteceu no código, primeiramente passamos o JSON de configuração da requisição:
-
-```js
-{
-  hostname: 'localhost',
-  path: '/teste?irru=true&xulepa=1',
-  port: 3000,
-  agent: false
-}
-```
-
-E no segundo parâmetro passamos a função anônima que é executada após a requisição ser respondida:
-
-```js
-(response) => {
-   let body = '';
-
-    console.log('STATUS: ' + response.statusCode);
-    console.log('HEADERS: ' + response.headers);
-
-    response.on('data', function(data) {
-      body += data;
-    });
-
-    response.on('end', function() {
-      console.log("Resposta: ", body);
-    });
-}
-```
-
-Inicialmente criamos a variável `body` que irá receber a resposta em si, porém de uma forma diferente que estamos acostumados, pois precisamos concatenar `body += data` os dados que chegam no evento `data` do `response` que é recebido pelo *callback* do `get()`.
-
-A única diferença entre o `http.get()` e `http.request`é que o `get()` seta o valor do verbo para `GET` e chama o `req.end()` automaticamente.
-
-**Percebeu que estamos usando 2 eventos do `response`?**
-
-Isso acontece porque ele é uma instância do [http.IncomingMessage](https://nodejs.org/api/http.html#http_http_incomingmessage).
-
-> Um objeto `IncomingMessage` é criado por `http.Server` ou `http.ClientRequest` e passado como o primeiro argumento para o `request` e  `response`, respectivamente. Ele pode ser usado para acessar resposta de status, os cabeçalhos e os dados em si.
-
-O `IncomingMessage` implementa a interface de [Readable Stream ](https://nodejs.org/api/stream.html#stream_class_stream_readable) que nos dá alguns eventos importantes, como:
-
-- close: evento emitido quando qualquer tipo de stream foi fechada;
-- data: evento que recebe os dados da *Stream*;
-- end: evento emitido quando não há mais dados para ler;
-- error: evento emitido quando acontecer algum erro.
-
-Sabendo de tudo isso podemos seguir para o `request` e começar a consumir APIs externas.
+// Consultar a API dos gatos e servir posteirormente a imagem em rotas.
 
 ## request
-
-
