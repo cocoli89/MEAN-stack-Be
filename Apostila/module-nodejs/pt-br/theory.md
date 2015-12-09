@@ -35,9 +35,11 @@ Com uma coisinha linda fachamada *Event Loop*.
 
 ## Event Loop
 
-![](http://softwareengineeringdaily.com/wp-content/uploads/2015/07/event-loop.jpg)
+![](https://cldup.com/tX0eT4gh53.gif)
 
 O Event Loop nada mais é que uma fila **infinita** que recebe todos os eventos emitidos pelo Node.js, isso inclui as requisições que recebemos no servidor HTTP.
+
+![](http://softwareengineeringdaily.com/wp-content/uploads/2015/07/event-loop.jpg)
 
 Quando o evento chega para ser exeutado no *Event Loop*, caso ele seja assíncrono, ele será enviado para onde deve ser executado, por exemplo: filesystem, network, process, etc.
 
@@ -116,6 +118,7 @@ Isso me lembrou o [Princípio da incerteza de Heisenberg](https://pt.wikipedia.o
 ## Thread Pool
 
 ![http://kunkle.org/assets/scaling-event-loop.png](http://kunkle.org/assets/scaling-event-loop.png)
+
 O node.js trabalha uma tread-pool a partir de uma thread, a thread em que ele é instanciado, é facilmente confundível com o que diz respeito a multi-thread, porém o node não dispõe desse custoso mecanismo para fazer i/o assíncrono, se você quiser dispor de todos os mecanismos de núcleos de um processador, você pode usar mecanismo de balanceamento e comunicação entre portas, **cluster***(um módulo nativo do node.js).
 
 **Definição**: Uma thread-pool pode ser comparada com um array  em que o número de colunas representaria uma **idle-thread**, uma thread pré executada que só espera um processo para trabalhar e o processo, o indice desse array. O node.js trabalha o processo como um I/O que a aplicação em node.js faz. Ou seja um I/O para uma idle-thread.
