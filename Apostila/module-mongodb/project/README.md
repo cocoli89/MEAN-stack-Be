@@ -17,14 +17,12 @@ Além de criar a coleção `user` e achar uma modelagem melhor da proposta, **te
 ## Create - cadastro
 
 1. Cadastre 10 usuários diferentes.
-2. Cadastre 5 projetos diferentes.
-    - cada um com 5 membros, sempre diferentes dentro dos projetos;
-    - cada um com pelo menos 3 tags diferentes;
-        - escolha 1 *tag* onde deva ficar em 2 projetos;
-        - escolha 1 *tag* onde deva ficar em 3 projetos;
-    - cada projeto com pelo menos 1 *goal*;
-        - cada *goal* com pelo menos 3 *tags*;
-        - cada *goal* com pelo menos 2 atividades, deixe 1 projeto sem.
+2. Cadastre 5 projetos diferentes
+    - cada um com 5 membros, sempre diferentes dentro dos projetos
+    - cada um com pelo menos 3 tags diferentes
+        - escolha 1 tag onde deva ficar em 2 projetos
+        - escolha 1 tag onde deva ficar em 3 projetos
+    - cada um com pelo menos 2 atividades
 
 ## Retrieve - busca
 
@@ -37,27 +35,9 @@ Além de criar a coleção `user` e achar uma modelagem melhor da proposta, **te
 
 ## Update - alteração
 
-1. Adicione para todos os projetos o campo `views: 0`.
-2. Adicione 1 tag diferente para cada projeto.
-3. Adicione 2 membros diferentes para cada projeto.
-4. Adicione 1 comentário em cada atividade, deixe apenas 1 projeto sem.
-5. Adicione 1 projeto inteiro com **UPSERT**.
-
 ## Delete - remoção
 
-1. Apague todos os projetos que não possuam *tags*.
-2. Apague todos os projetos que não possuam comentários nas atividades.
-3. Apague todos os projetos que não possuam atividades.
-4. Escolha 2 usuário e apague todos os projetos em que os 2 fazem parte.
-5. Apague todos os projetos que possuam uma determinada *tag* em *goal*.
-
-## Gerenciamento de usuários
-
-1. Crie um usuário com permissões **APENAS** de Leitura.
-2. Crie um usuário com permissões de Escrita e Leitura.
-3. Adicionar o papel `grantRolesToUser` e `revokeRole` para o usuário com Escrita e Leitura.
-4. Remover o papel `grantRolesToUser` para o usuário com Escrita e Leitura.
-5. Listar todos os usuários com seus papéis e ações.
+1. Delete todas as atic
 
 ## Cluster
 
@@ -71,12 +51,12 @@ Depois de criada toda sua base você deverá criar um cluster utilizando:
 Você deverá escolher qual sua coleção deverá ser *shardeada* para poder aguentar muita carga repentinamente e deverá replicar cada Shard, pode ser feito localmente como em alguma VPS FREE.
 
 
-## A Estrutura
+## Estrutura
 
 ```
 # MongoDb - Projeto Final
 **Autor:** Nome Completo
-**Data** Date.now() //em timestamp
+**Data** Data da entrega
 
 ## Para qual sistema você usaria o MogoDB (diferente desse)?
 
@@ -99,11 +79,3 @@ Você deverá escolher qual sua coleção deverá ser *shardeada* para poder agu
 // coloque aqui todos os comandos que você executou
 
 ```
-
-## O Envio
-
-Envie seu arquivo para [esse repositório](https://github.com/Webschool-io/be-mean-instagram-mongodb-projects) seguindo o seguinte padrão de nome para o arquivo:
-
-> project-githubuser-nome-completo-com-hífens.md
-
-
