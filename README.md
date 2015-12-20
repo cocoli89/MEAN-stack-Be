@@ -1,12 +1,4 @@
-# Calendário Dezembro
-
-![](./Calendar/2015-dezembro.png)
-
-# Calendário Janeiro
-
-![](./Calendar/2015-dezembro.png)
-
-# Os brindes serão enviados ATÉ O NATAL!!!
+# As aulas retornarão na primeira semana de JANEIRO!
 
 # APOIE
 
@@ -390,11 +382,11 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
             - Prof.: [Itacir Pompeu](https://github.com/pompeu)
 - Aula 21: **08/12/2015**
     + **[Projeto em aula]**
-        * [DevCouchsurfing](./../../Projects/DevCouchsurfing)
+        * [EAD](./../../Projects/EAD)
             - Prof.: [Bruno Marinho](https://github.com/bmsrox)
 
 ##  Módulo Angular - 04.01 a 31.01
-
+2
 - **Aula 01 - 04.01**
 - **Aula 02 - 05.01**
 - **Aula 03 - 06.01**
