@@ -1,22 +1,14 @@
-# Calendário Dezembro
-
-![](./Calendar/2015-dezembro.png)
-
-# Calendário Janeiro
-
-![](./Calendar/2016-janeiro.png)
-
-# Os brindes serão enviados ATÉ O NATAL!!!
+![](./2016-janeiro.png)
 
 # APOIE
 
-## R$50
+### R$50
 
 Recebe os três primeiros certificados (MongoDB, Node.js e AngularJs) com 42 horas ao total.
 
 Certificados:
 
-- MongoDB (7 horas)
+- MongoDB (9 horas)
 - Node.js (20 horas)
 - AngularJs (15 horas)
 
