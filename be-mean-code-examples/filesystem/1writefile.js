@@ -17,5 +17,5 @@ fs.writeFile("./hello2.txt","hello, I'm a motherfucker async content", function 
   console.log(result);
 });
 
-var writeStream = fs.createWriteStream('./helloStream.txt', {defaultEnconding:'utf8'});
+var writeStream = fs.createWriteStream('./helloStream.txt', {defaultEnconding:'utf8k'});
 writeStream.write("Hello,  I'm a writable stream!");
