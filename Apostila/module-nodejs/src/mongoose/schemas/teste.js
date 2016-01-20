@@ -1,31 +1,21 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-const ObjectId = mongoose.ObjectId;
 
-mongoose.connect('mongodb://localhost/teste');
+mongoose.connect('mongodb://localhost/test');
 
-const CommentsSchema = new Schema({
-  title: String
-, body: String
-, date: Date
+
+const userSchema = new Schema({
+  name: String
+, email: { type: String, unique: true }
+, date_created: { type: Date, default: Date.now, index: true }
 });
 
-const BlogPostSchema = new Schema({
-  title: String
-, body: String
-, comments: [CommentsSchema]
-});
+userSchema.index({ name: 1, date_created: -1 }); // schema level
 
-const BlogPostModel = mongoose.model('BlogPost', BlogPostSchema);
-const BlogPost = new BlogPostModel();
-const comment = { 
-  title: 'Comentei aqui'
-, body: 'Tá comentando meu fiiiii!'
-, date: Date.now()
-};
+const User = mongoose.model('User', userSchema);
 
-BlogPost.comments.push(comment);
-BlogPost.save(function (err, data) {
+User.create({name: 'itacir', email: 'itacir@webschool.io'}, (err, data) => {
   if (err) return console.log('Erro:', err);
-  return console.log('Sucesso:', data);
+  return console.log('Animal: ', data);
 });
+
