@@ -330,10 +330,6 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 - Aula 08: **14/01/2016**
     + [Mongoose](./src/) - Prof.: [Suissa](https://github.com/suissa) & Prof.: [Itacir](https://github.com/pompeu)
         * Arquitetura Atômica
-        * Getters & Setters
-        * Methods && Statics
-        * Virtuals
-        * Index
         * Validate
         * Populate
         * Plugins
@@ -342,7 +338,6 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
     + [TDD](./src/) - Prof.: [Itacir](https://github.com/pompeu)
         * assert
         * chai
-        * mocha
     - Teste Atômicos  - Prof.: [Suissa](https://github.com/suissa)
 - Aula 10: **16/01/2016**
     + [Express](./src/) - Prof.: [Suissa](https://github.com/suissa)
