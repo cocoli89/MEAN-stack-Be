@@ -66,8 +66,7 @@ Cor do texto **sempre** preto, até em links!!
 
 ###### Link
 
-Cor do link **sempre** preto e com sublinhado.
-
+Cmo o 
 ![Cor do texto em LINK](https://cldup.com/OlEsav9czN.png)
 
 ##### Título
