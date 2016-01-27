@@ -1,12 +1,8 @@
-# Sobre os brindes
-
-O fornecedor de camiseta foi pago em Dezembro, porém só irá começar a fazer as camisetas **HOJE(18/Janeiro)** um mês depois de pago.
-
-Então podem ficar sossegados que os brindes irão chegar até o próximo mês, os adesivos já estão OK, aguardando as camisetas para irem juntos.
+![](./Calendar/2016-janeiro.png)
 
 # APOIE
 
-## R$50
+### R$50
 
 Recebe os três primeiros certificados (MongoDB, Node.js e AngularJs) com 49 horas ao total.
 
@@ -330,10 +326,6 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 - Aula 08: **14/01/2016**
     + [Mongoose](./src/) - Prof.: [Suissa](https://github.com/suissa) & Prof.: [Itacir](https://github.com/pompeu)
         * Arquitetura Atômica
-        * Getters & Setters
-        * Methods && Statics
-        * Virtuals
-        * Index
         * Validate
         * Populate
         * Plugins
@@ -342,7 +334,6 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
     + [TDD](./src/) - Prof.: [Itacir](https://github.com/pompeu)
         * assert
         * chai
-        * mocha
     - Teste Atômicos  - Prof.: [Suissa](https://github.com/suissa)
 - Aula 10: **16/01/2016**
     + [Express](./src/) - Prof.: [Suissa](https://github.com/suissa)
@@ -361,8 +352,9 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * TDD - Prof.: [Itacir](https://github.com/pompeu)
 - Aula 13: **19/01/2016**
     + [REPL](./src/) - Prof.: [Suissa](https://github.com/suissa)
-    + [Crawler](./src/) - Prof.: [Suissa](https://github.com/suissa)
-    + [Buffer](./http.md) - Prof.: [Caio](https://github.com/caiocutrim)
+    + [UDP](./http.md) - Prof.: [Caio](https://github.com/suissa)
+    + [TCP](./http.md) - Prof.: [Caio](https://github.com/suissa)
+    + [HTTPS](./http.md) - Prof.: [Caio](https://github.com/suissa)
 - Aula 14: **20/01/2016**
     + [Utilizando APIs externas](./src/) - Prof.: [Suissa](https://github.com/suissa)
         * [pokemons](http://pokeapi.co/) - Prof.: [William Bruno](https://github.com/wbruno)
@@ -379,7 +371,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Token
 - Aula 17: **04/01/2016**
     + **[Projeto em aula]**
-        * [Sistema de Pedidos]()
+        * [ScrumBan - Gerenciador de Projeto com Github](./../../Projects/Scrumban)
             - Prof.: [Caio Cutrim](https://github.com/caiocutrim)
 - Aula 18: **05/01/2016**
     + **[Projeto em aula]**
@@ -398,10 +390,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * [EAD](./../../Projects/EAD)
             - Prof.: [Bruno Marinho](https://github.com/bmsrox)
 
-##  Módulo ES6
-
-##  Módulo Angular
-
+##  Módulo Angular - 04.01 a 31.01
+2
 - **Aula 01 - 04.01**
 - **Aula 02 - 05.01**
 - **Aula 03 - 06.01**
@@ -420,9 +410,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 - **PROJETO**
 	+ de 23.01 a 31.01
 
-##  Módulo Frontend
-
-Gulp: [guidiego](https://github.comguidiego)
+##  Módulo Frontend - 01.02 a 05.03
 - **Aula 01 - 01.02**
 - **Aula 02 - 02.02**
 - **Aula 03 - 03.02**
@@ -441,7 +429,7 @@ Gulp: [guidiego](https://github.comguidiego)
 - **PROJETO**
 	+ de 27.02 a 05.03
 
-##  Módulo Segurança
+##  Módulo Segurança - 07.03 a 22.03
 - **Aula 01 - 07.03**
 - **Aula 02 - 08.03**
 - **Aula 03 - 09.03**
@@ -450,7 +438,7 @@ Gulp: [guidiego](https://github.comguidiego)
 - **Aula 06 - 21.03**
 - **Aula 07 - 22.03**
 
-##  Módulo UX & Animations
+##  Módulo UX & Animations - 10.03 a 27.03
 - **Aula 01 - 10.03**
 - **Aula 02 - 11.03**
 - **Aula 03 - 14.03**
