@@ -57,4 +57,3 @@ A entrevista, ou uma pré-entrevista, poderá ser feita via sistema utilizando W
 ## Arquitetura
 
 ## Equipe
--Paulo Roberto da Silva (paulosilva92)
