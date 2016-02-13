@@ -291,7 +291,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 
 - Aula 01
    + Vídeo: [https://www.youtube.com/watch?v=OgfO37F6mdg](https://www.youtube.com/watch?v=OgfO37F6mdg)
-    + [Teoria](./src/theory.md) - Profs.: [Suissa](https://github.com/suissa) e [Caio](https://github.com/caiocutrim)
+    + [Teoria](./src/theory.md) - Profs.: [Suissa](https://github.com/suissa) e [Caio]()
         * V8
         * Single thread
         * Event Loop
@@ -299,24 +299,24 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Libuv
         * Event Driven
         * API
-    + [Instalação](./Apostila/module-nodejs/pt-br/installation.md)
+    + [Instalação](./src/pt-br/installation)
 - Aula 02
    + Vídeo: [https://www.youtube.com/watch?v=mDtNcosGgiU](https://www.youtube.com/watch?v=mDtNcosGgiU)
-    + [HTTP](./Apostila/module-nodejs/pt-br/http.md) - Prof.: [Suissa](https://github.com/suissa)
+    + [HTTP](./src/http.md) - Prof.: [Suissa](https://github.com/suissa)
         * createServer
         * Methods
         * Status Codes
         * [Rotas]()
 - Aula 03
    + Vídeo: [https://www.youtube.com/watch?v=TpNofR3Axsk](https://www.youtube.com/watch?v=TpNofR3Axsk)
-    + [HTTP](./Apostila/module-nodejs/pt-br/http.md) - Prof.: [Suissa](https://github.com/suissa)
+    + [HTTP](./src/http.md) - Prof.: [Suissa](https://github.com/suissa)
         * get
         * request
             * post
             * put
 - Aula 04
-    + [Callbacks](./Apostila/module-nodejs/pt-br/callback.md) - Prof.: [Caio Cutrim](https://github.com/caiocutrim/)
-    + [FileSystem](./Apostila/module-nodejs/pt-br/fs.md) - Prof.: [William Bruno](https://github.com/wbruno)
+    + [Callbacks](./src/callbacks.md) - Prof.: [Caio Cutrim](https://github.com/caiocutrim/)
+    + [FileSystem](./src/fs.md) - Prof.: [William Bruno](https://github.com/wbruno)
         * mkdir
         * open
         * readdir
@@ -324,7 +324,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * rename
         * writeFile
 - Aula 05
-    + [npm](./Apostila/module-nodejs/pt-br/npm.md) - Prof.: [Suissa](https://github.com/suissa)
+    + [npm](./src/npm.md) - Prof.: [Suissa](https://github.com/suissa)
         * init
         * install --global ou -g
         * install --save
