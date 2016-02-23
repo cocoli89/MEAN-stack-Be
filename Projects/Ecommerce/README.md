@@ -174,4 +174,4 @@ Cada produto é um nó no grafo e cada característica dele também, assim como 
 
 ## Equipe
 
-Gilson Filho <me@gilsondev.in>
+* **Hélio Marcondes** - [Github](https://github.com/heliomsolivas "GitHub")
