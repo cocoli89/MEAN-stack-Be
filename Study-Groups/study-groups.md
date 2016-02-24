@@ -50,7 +50,6 @@ Professor: [Itacir Pompeu](https://github.com/Pompeu)
 - [Alison Monteiro](https://github.com/alisonmonteiro)
 - [Vinicius Borges](https://github.com/BX-L)
 - [Salvador Torres](https://github.com/ssatorres)
-- [Igor Luíz](https://githib.com/Halfeld)
 
 ### Electron
 Professor: [Jonatas Freitas](https://github.com/jonatasfreitasv)
@@ -58,7 +57,6 @@ Professor: [Jonatas Freitas](https://github.com/jonatasfreitasv)
 - [Vinicius Reis](https://github.com/vinicius73)
 - [Marcelo Santos](https://github.com/MarceSanto)
 - [Itacir Pompeu](https://github.com/Pompeu )
-- [Igor Luíz](https://github.com/Halfeld)
 
 ## Angular
 
