@@ -71,8 +71,6 @@ Então o próprio sistema iria juntar essas informações e enviar para as empre
 
 Depois das empresas enviarem seus valores, o sistema envia-os para os usuários para q eles escolham de qual empresa vão comprar.
 
-
-
 ### O Vendedor
 
 Uma coisa que não existe é vendedor para ecommerce correto?
@@ -163,10 +161,70 @@ Bom na minha concepção não, por quê?
 
 Porque eu acredito que com os valores parecidos, o comércio irá ganhar o cliente com o **atendimento** dele e nem tanto pelo preço já que a diferença entre eles seria pequena, você como cliente irá escolher o comércio que você é melhor atendido, lembrando que todas empresas do sistema precisam ter uma loja física.
 
-### Fornecedores
+#### Fornecedores
+
+### Requisitos
+
+#### Registro de Usuários
+
+O usuário que deseja ter uma conta no e-commerce, vai acessar a página de cadastro. Ele pode ter as seguintes opções de login:
+
+ - Google (Gmail);
+ - Facebook;
+
+Caso não escolher nenhum desses, ele vai seguir com o registro convencional do site. Os modos de autenticação citados normalmente oferece alguns dos dados necessário para o registro como nome completo e e-mail.
+
+No registro convencional, ele precisa preencher:
+
+ - E-mail;
+ - Senha;
+
+Durante o acesso do site, vamos precisar de outras informações, mas que podem ser solicitados mais tarde:
+
+ - No fechamento de uma compra:
+  - Dados pessoais:
+    - Nome completo;
+    - CPF (para alguma verificação, caso contrário, não precisa);
+  - Dados da Entrega:
+    - Descrição do Endereço (colocar algo como "Casa", "Trabalho", "Casa dos Pais", etc);
+    - Endereço;
+    - Número;
+    - CEP;
+    - Bairro;
+    - Cidade;
+    - Estado.
+  - Dados do Pagamento (Cartão de Crédito, já que o boleto é só imprimir):
+    - Número do Cartão;
+    - Nome impresso no cartão;
+    - Código de Segurança.
+
+O mesmo pode fazer a edição dessas informações na sua página de perfil. No registro convencional do site, ele poderá alterar sua senha e e-mail.
+
+#### Cadastro de Fornecedores
+
+#### Gerenciamento de Produtos
+
+#### Controle de Estoque
+
+#### Gerenciamento de Promoções
+
+#### Controle de Entrega
+
+#### Gerenciamento de taxas
+
+#### Gerenciamento de Pedidos (carrinho de compras)
+
+#### SEO
+
+#### Integração a gateways de pagamento
+
+#### Integração a redes sociais
+
+#### Feedback do cliente
+
+#### Migração de plataformas conhecidas (Magento e outros)
 
 
-## Requisitos
 
 ## Arquitetura
 
@@ -174,4 +232,4 @@ Cada produto é um nó no grafo e cada característica dele também, assim como 
 
 ## Equipe
 
-Gilson Filho <me@gilsondev.in>
+Gilson Filho - <me@gilsondev.in>
