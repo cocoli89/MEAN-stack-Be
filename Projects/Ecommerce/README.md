@@ -374,6 +374,6 @@ Cada produto é um nó no grafo e cada característica dele também, assim como 
 
 ## Equipe
 
-- Gilson Filho [Github](https://github.com/gilsondev)
+- Gilson Filho <me@gilsondev.in> // ERRADO
 - **Igor Luíz** - [Github](https://github.com/Halfeld)
 - **Hélio Marcondes** - [Github](https://github.com/heliomsolivas "GitHub")
