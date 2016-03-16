@@ -4,9 +4,9 @@
 - Coloque o email que você digitou antes e crie uma senha
 - Entre no channel `be-mean-instagram`
 
-# [Grupo do Telegram](https://telegram.me/joinchat/BJ_gtwdXoK18LvFTTBxDKw)
+# [Grupo do Telegram](https://telegram.me/joinchat/BJ_gtz49o2OSzTU90SKp-A)
 
-Para entrar no grupo oficial do Be mean no Telegram basta seguir o link [https://telegram.me/joinchat/BJ_gtwdXoK18LvFTTBxDKw](https://telegram.me/joinchat/BJ_gtwdXoK18LvFTTBxDKw), lembrando que só é permitido postagens e discussões sobre dúvidas e/ou assuntos pertinentes ao curso, aquele que não respeitar essas regras será banido.
+Para entrar no grupo oficial do Be mean no Telegram basta seguir o link [https://telegram.me/joinchat/BJ_gtz49o2OSzTU90SKp-A](https://telegram.me/joinchat/BJ_gtz49o2OSzTU90SKp-A), lembrando que só é permitido postagens e discussões sobre dúvidas e/ou assuntos pertinentes ao curso, aquele que não respeitar essas regras será banido.
 
 # Sobre
 
@@ -407,23 +407,23 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Token
 - Aula 17
     + **[Projeto em aula]**
-        * [Sistema de Pedidos]()
+        * [Sistema de Pedidos](https://github.com/Webschool-io/be-mean-instagram/tree/master/Projects/Ecommerce)
             - Prof.: [Elton Pereira](eltondev)
 - Aula 18
     + **[Projeto em aula]**
-        * [Estante Virtual](./../../Projects/Estante-Virtual)
+        * [Estante Virtual](https://github.com/Webschool-io/be-mean-instagram/tree/master/Projects/Estante-Virtual)
             - Prof.: [William Bruno](https://github.com/wbruno)
 - Aula 19
     + **[Projeto em aula]**
-        * [Gerenciador de Doações](./../../Projects/Donations)
+        * [Gerenciador de Doações](https://github.com/Webschool-io/be-mean-instagram/tree/master/Projects/Donations)
             - Prof.: [Suissa](https://github.com/suissa)
 - Aula 20
     + **[Projeto em aula]**
-        * [Jobs - Gerenciador de Vagas de Trabalho](./../../Projects/Jobs)
+        * [Jobs - Gerenciador de Vagas de Trabalho](https://github.com/Webschool-io/be-mean-instagram/tree/master/Projects/Jobs)
             - Prof.: [Itacir Pompeu](https://github.com/pompeu)
 - Aula 21
     + **[Projeto em aula]**
-        * [EAD](./../../Projects/EAD)
+        * [EAD](https://github.com/Webschool-io/be-mean-instagram/tree/master/Projects/EAD)
             - Prof.: [Caio Cutrim](https://github.com/caiocutrim)
 
 ##  Módulo ES6
