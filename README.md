@@ -34,7 +34,7 @@ Certificados:
 - AngularJs (15 horas)
 
 
-**Acesse [http://webschool.io/bemean](Webschool.io/bemean) para apoiar.**
+**Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.**
 
 
 ## R$100
@@ -60,7 +60,7 @@ Certificados:
   - Stylus (2 horas)
   - PostCSS (2 horas)
 
-**Acesse [http://webschool.io/bemean](Webschool.io/bemean) para apoiar.**
+**Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.**
 
 
 # Certificado
@@ -68,12 +68,12 @@ Certificados:
 Para tirar o certificado você precisa entregar 3 coisas:
 
 - **Todos os exercícios;**
-- **O Artigo;**
-- **O Projeto final;**
+- **O Artigo e Projeto final;**
 - **Um resumo em forma de blog/github-pages.**
 
 Esse resumo pode ser apenas um README.md em um repositório que vire um site com Github Pages ou usando qualquer outro sistema de blog.
 
+**ps: Ganhe adesivos trazendo amigos para o curso!**
 
 ## Prazo
 
@@ -82,7 +82,7 @@ Esse resumo pode ser apenas um README.md em um repositório que vire um site com
 
 # O Professor
 
-Olá meu nome é Jean Carlo Nascimento, mais conhecido como **Suissa**, por favor me chame assim, já trabalho com Web uns 10 anos profissionalmente e há mais de 4 apenas com JavaScript.
+Olá meu nome é Jean Carlo Nascimento, mais conhecido como **Suissa**, por favor me chame assim, já trabalho com Web uns 10 anos profissionalmente e há mais de 3 apenas com JavaScript.
 
 Criei o Be MEAN há mais de 2 anos, sendo o único curso presencial até início de 2015 e o único **AO VIVO** quase bimensalmente.
 
@@ -99,13 +99,15 @@ Nas outras era sempre HTML5/CSS3 e JavaScript, só faltava um de Banco de Dados 
 
 A aula segue um grande *workflow* até ser divulgada:
 
-1. Criação do material na apostila;
-2. Execução dos códigos para confirmação;
-3. Criação do conteúdo dos slides;
-4. Gravação da aula;
-5. Edição da aula;
-6. Upload da aula;
-7. Divulgação do link.
+1. Resolução do exercício da aula anterior;
+2. Gravação da resolução do exercício;
+3. Criação do material na apostila;
+4. Execução dos códigos para confirmação;
+5. Criação do conteúdo dos slides;
+6. Gravação da aula;
+7. Edição da aula;
+8. Upload da aula;
+9. Divulgação do link.
 
 ## Início
 
@@ -318,7 +320,6 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
             * post
             * put
 - Aula 04
-   + Vídeo: [https://www.youtube.com/watch?v=f9SE7Y0qYEg](https://www.youtube.com/watch?v=f9SE7Y0qYEg)
     + [Callbacks](./Apostila/module-nodejs/pt-br/callback.md) - Prof.: [Caio Cutrim](https://github.com/caiocutrim/)
     + [FileSystem](./Apostila/module-nodejs/pt-br/fs.md) - Prof.: [William Bruno](https://github.com/wbruno)
         * mkdir
@@ -327,13 +328,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * readFile
         * rename
         * writeFile
-
-- Aula ESPECIAL
-   + Vídeo: [https://www.youtube.com/watch?v=sw7kPzkIN4g](https://www.youtube.com/watch?v=sw7kPzkIN4g)
-    + [ES6](./Apostila/module-es6/README.md) - Prof.: [Suissa](https://github.com/suissa)
-
 - Aula 05
-   + Vídeo: [https://www.youtube.com/watch?v=Kg4RovUQWeg](https://www.youtube.com/watch?v=Kg4RovUQWeg)
     + [npm](./Apostila/module-nodejs/pt-br/npm.md) - Prof.: [Suissa](https://github.com/suissa)
         * init
         * install --global ou -g
@@ -341,38 +336,21 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * install --save-dev
         * install --optional
         * run
-
-   + Vídeo: [https://www.youtube.com/watch?v=DD1XKyaq9NE](https://www.youtube.com/watch?v=DD1XKyaq9NE)
     + [Globals](./src/) - Prof.: [Caio](https://github.com/caiocutrim/)
         * CommonJS
     + [Process](./src/) - Prof.: [Caio](https://github.com/caiocutrim/)
-    
 - Aula 06
-   + Vídeo: [Parte 1/3](https://www.youtube.com/watch?v=O8odFa3dl-k)
-   + Vídeo: [Parte 2/3](https://www.youtube.com/watch?v=02a_lo_KLwU)
-   + Vídeo: [Parte 3/3](https://www.youtube.com/watch?v=XeLRYhrcKJo)
     + [Mongoose](./src/) - Prof.: [Suissa](https://github.com/suissa)
         * Create
         * Retrieve
         * Update
         * Delete
-        * Validação
-        
 - Aula 07
-   + Vídeo: [https://www.youtube.com/watch?v=i6h1A-l11-k](https://www.youtube.com/watch?v=i6h1A-l11-k)
     + [Eventos](./src/) - Prof.: [Itacir](https://github.com/pompeu)
         * Mongoose
     + [Promises](./src/) - Prof.: [Itacir](https://github.com/pompeu)
         * Mongoose
 - Aula 08
-
-   + Vídeo: [Parte 1/6](https://www.youtube.com/watch?v=tscqqhVQje8) 
-   + Vídeo: [Parte 2/6](https://www.youtube.com/watch?v=_wj0y_77CYs)
-   + Vídeo: [Parte 3/6](https://www.youtube.com/watch?v=8M4pN64BsnU)
-   + Vídeo: [Parte 4/6](https://www.youtube.com/watch?v=xR3ex_YjQyc)
-   + Vídeo: [Parte 5/6](https://www.youtube.com/watch?v=VRGI-R_PxpQ)
-   + Vídeo: [Parte 6/6](https://www.youtube.com/watch?v=3Hq7O7TeXjw)
-   
     + [Mongoose](./src/) - Prof.: [Suissa](https://github.com/suissa) & Prof.: [Itacir](https://github.com/pompeu)
         * Arquitetura Atômica
         * Getters & Setters
@@ -384,8 +362,6 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Plugins
         * Middlewares
 - Aula 09
-   + Vídeo: [Parte 1/3](https://www.youtube.com/watch?v=dHeb_Gs4zzo)
-   + Vídeo: [Parte 2/3](https://www.youtube.com/watch?v=OCB7jMZBIas)
     + [TDD](./src/) - Prof.: [Itacir](https://github.com/pompeu)
         * assert
         * chai
@@ -431,23 +407,23 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Token
 - Aula 17
     + **[Projeto em aula]**
-        * [Sistema de Pedidos](https://github.com/Webschool-io/be-mean-instagram/tree/master/Projects/Ecommerce)
+        * [Sistema de Pedidos]()
             - Prof.: [Elton Pereira](eltondev)
 - Aula 18
     + **[Projeto em aula]**
-        * [Estante Virtual](https://github.com/Webschool-io/be-mean-instagram/tree/master/Projects/Estante-Virtual)
+        * [Estante Virtual](./../../Projects/Estante-Virtual)
             - Prof.: [William Bruno](https://github.com/wbruno)
 - Aula 19
     + **[Projeto em aula]**
-        * [Gerenciador de Doações](https://github.com/Webschool-io/be-mean-instagram/tree/master/Projects/Donations)
+        * [Gerenciador de Doações](./../../Projects/Donations)
             - Prof.: [Suissa](https://github.com/suissa)
 - Aula 20
     + **[Projeto em aula]**
-        * [Jobs - Gerenciador de Vagas de Trabalho](https://github.com/Webschool-io/be-mean-instagram/tree/master/Projects/Jobs)
+        * [Jobs - Gerenciador de Vagas de Trabalho](./../../Projects/Jobs)
             - Prof.: [Itacir Pompeu](https://github.com/pompeu)
 - Aula 21
     + **[Projeto em aula]**
-        * [EAD](https://github.com/Webschool-io/be-mean-instagram/tree/master/Projects/EAD)
+        * [EAD](./../../Projects/EAD)
             - Prof.: [Caio Cutrim](https://github.com/caiocutrim)
 
 ##  Módulo ES6

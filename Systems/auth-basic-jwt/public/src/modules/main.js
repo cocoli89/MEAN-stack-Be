@@ -1,5 +1,7 @@
 angular.module("rschool", [
-  "ui.bootstrap",
-  "ngStorage",
-  "ngRoute"
+	"rschool.students",
+	"rschool.routes",
+	"rschool.components",
+	"rschool.users",
+	"ui.bootstrap"
 ]);

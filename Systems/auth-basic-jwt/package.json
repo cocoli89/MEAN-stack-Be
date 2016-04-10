@@ -5,8 +5,7 @@
   "private": true,
   "main": "server.js",
   "scripts": {
-    "test": "",
-    "server":"nodemon server.js"
+    "test": ""
   },
   "keywords": [
     "\"Real",

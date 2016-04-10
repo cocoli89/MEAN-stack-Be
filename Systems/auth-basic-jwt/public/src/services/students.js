@@ -1,4 +1,4 @@
-angular.module("rschool", ["ngResource"])
+angular.module("rschool.students", ["ngResource"])
 .factory("Student",["$resource", function($resource){
-  return $resource("/students/:id");
+	return $resource("/students/:id");
 }]);
